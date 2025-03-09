@@ -115,7 +115,7 @@ section h1{
 .Fonas{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-image: url("/slike/O\ nas.png");
+    background-image: url("/slike/Onas.png");
     background-repeat: no-repeat;
     background-size: cover;
     transform-origin: top right;
@@ -257,7 +257,7 @@ button svg{
 }
 
 .produkt{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(0, 0, 0, 0.9)), url(Slike/Produkt.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(0, 0, 0, 0.9)), url(/Slike/Produkt.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -271,7 +271,7 @@ button svg{
 }
 
 .onas{
-    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(/Slike/O\ nas.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(/Slike/Onas.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
