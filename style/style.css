@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: San Francisco Pro;
-    src: url(SF-Font/SF-Pro.ttf);
+    src: url(/SF-Font/SF-Pro.ttf);
 }
 
 body{
@@ -98,7 +98,7 @@ section h1{
 .Fprodukt{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-image: url("slike/Produkt.png");
+    background-image: url("/Slike/Produkt.png");
     background-repeat: no-repeat;
     transform-origin: top left;
 }
@@ -106,7 +106,7 @@ section h1{
 .Frazvoj{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    background-image: url("slike/Razvoj.png");
+    background-image: url("/slike/Razvoj.png");
     background-repeat: no-repeat;
     background-size: cover;
     transform-origin: bottom left;
@@ -115,7 +115,7 @@ section h1{
 .Fonas{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-image: url("slike/O\ nas.png");
+    background-image: url("/slike/O\ nas.png");
     background-repeat: no-repeat;
     background-size: cover;
     transform-origin: top right;
@@ -124,7 +124,7 @@ section h1{
 .Fkontakt{
     grid-column: 2 / 3;
     grid-row: 2 / 4;
-    background-image: url("slike/Kontakt.png");
+    background-image: url("/slike/Kontakt.png");
     background-repeat: no-repeat;
     background-size: cover;
     transform-origin: bottom right;
@@ -265,19 +265,19 @@ button svg{
 
 
 .razvoj{
-    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(Slike/Razvoj.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(/Slike/Razvoj.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .onas{
-    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(Slike/O\ nas.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(/Slike/O\ nas.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .kontakt{
-    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(Slike/Kontakt.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(/Slike/Kontakt.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
